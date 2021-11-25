@@ -49,3 +49,8 @@ input{
   cursor: pointer;
 }
 
+.msg {
+  font-family: cursive;
+  font-weight: bold;
+  color: red;
+}
