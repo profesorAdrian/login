@@ -10,16 +10,16 @@ function login(){
             printMessage(`Welcome ${formUsername}`)
         }
         else{
-            printMessage(`Welcome ${formUsername}`)
+            printMessage('the password is incorrect')
         }
     }
     else{
-            printMessage(`Welcome ${formUsername}`)
+            printMessage('The user ' + formUsername + ' does not exist')
     }    
 }
 
 function printMessage(message){
     const messageDiv = document.getElementById('message')
 
-    messageDiv.innerHTML = message
+    messageDiv.innerHTML = '<p>' + message + '</p>'
 }
